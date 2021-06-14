@@ -5,25 +5,25 @@
 class Huec < Formula
   desc "A powerful CLI for controlling Philips Hue lights."
   homepage "https://github.com/firstthumb/huec"
-  version "1.0.15"
+  version "1.0.16"
   license "MIT"
   bottle :unneeded
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/firstthumb/huec/releases/download/v1.0.15/huec_1.0.15_macOS_x86_64.tar.gz"
-      sha256 "e73b31aecd8fd58fec9f4dec686e7cb609d1771b130accf385cf507dfd966577"
+      url "https://github.com/firstthumb/huec/releases/download/v1.0.16/huec_1.0.16_macOS_x86_64.tar.gz"
+      sha256 "4b229f1ab041416121f5072699409c1b165173d13758f577545cf20509510093"
     end
     if Hardware::CPU.arm?
-      url "https://github.com/firstthumb/huec/releases/download/v1.0.15/huec_1.0.15_macOS_arm64.tar.gz"
-      sha256 "c33a1f9272258be8c61d770792f435c2bbf5d915ed818edd896bcc7383a4b0ad"
+      url "https://github.com/firstthumb/huec/releases/download/v1.0.16/huec_1.0.16_macOS_arm64.tar.gz"
+      sha256 "6df414dc9069b6c6367ad187953d9a7691fc7ff19b781f0f4d685fcfc66d10a1"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/firstthumb/huec/releases/download/v1.0.15/huec_1.0.15_Linux_x86_64.tar.gz"
-      sha256 "cd58f2479613f4ecca57965969e32577505dc1a1fa918d60c1a11f4cff23ce0f"
+      url "https://github.com/firstthumb/huec/releases/download/v1.0.16/huec_1.0.16_Linux_x86_64.tar.gz"
+      sha256 "796d7bbeaa6364e2f8702008c581207c7161d5dce2e5f4208bf2a712cae3bc0c"
     end
   end
 
